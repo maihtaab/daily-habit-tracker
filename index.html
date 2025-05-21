@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Habit Tracker ✨</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1> 𐙚⋆₊˚Daily Habit Traker₊˚⊹ᰔ</h1>
+        <p id="datetime" class="datetime"></p>
+        <p id="dailyQuote" class="quote"></p>
+
+    <div class="input-section">
+      <input type="text" id="habitInput" placeholder="e.g., Stretch, Journal, Water" />
+      <button onclick="addHabit()">Add</button>
+      <button id="resetBtn" class="reset-btn">Reset</button>
+
+    </div>
+
+    <ul id="habitList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
